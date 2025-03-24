@@ -70,7 +70,7 @@ public class Application {
                 }
                 result.append(carNames[i]);
             }
-
-
+            System.out.println("최종 우승자 : " + result);
         }
+
     }
