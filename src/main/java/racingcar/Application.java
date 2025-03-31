@@ -18,5 +18,4 @@ public class Application {
 
         processRace(CarName, HowManyTryInput);
     }
-
 }

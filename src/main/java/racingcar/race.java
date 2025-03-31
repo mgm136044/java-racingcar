@@ -10,7 +10,6 @@ public class race {
         for (int i = 0; i < carNames.length; i++) {
             positions[i] = new StringBuilder(); // 각 자동차의 위치 초기화
         }
-
         for (int i = 0; i < tryCount; i++) {
             int[] randomNumbers = pickRandomNumbers(carNames.length);
             updatePositions(carNames, positions, randomNumbers);

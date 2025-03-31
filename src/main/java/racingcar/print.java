@@ -4,11 +4,9 @@ public class print {
     public static void printRaceStep(String[] carNames, StringBuilder[] positions) {
         for (int i = 0; i < carNames.length; i++) {
             System.out.println(carNames[i] + " : " + positions[i]);
-
         }
         System.out.println(); // 단계별 개행
     }
-
 
     public static void printWinners(String[] carNames, StringBuilder[] positions) {
         int max = 0;
