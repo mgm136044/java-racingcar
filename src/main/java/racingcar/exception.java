@@ -5,7 +5,7 @@ public class exception {
         validateCarNames(carNameInput);
         validateTryCount(tryInput);
     }
-    public static void validateCarNames(String carNameInput) {
+    public static void validateCarNames(String carNameInput) { // 이름 검증 메서드
         if (carNameInput == null || carNameInput.trim().isEmpty()) {
             throw new IllegalArgumentException("자동차 이름이 입력되지 않았습니다.");
         }
@@ -19,7 +19,7 @@ public class exception {
             }
         }
     }
-    public static void validateTryCount(String tryInput) {
+    public static void validateTryCount(String tryInput) { // 시도 검증 메서드
         try {
             int count = Integer.parseInt(tryInput);
             if (count < 1) {
